@@ -53,6 +53,9 @@ const inputTitles: Record<Task, string> = {
   Summarize: "Email to Summarize",
 };
 
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:5000";
+
 function App() {
   const [task, setTask] = useState<Task>("Generate");
   const [tone, setTone] = useState<Tone>("Professional");
@@ -81,7 +84,7 @@ function App() {
 
     try {
       const response = await axios.post<{ result: string }>(
-        "http://localhost:5000/api/email",
+        `${API_URL}/api/email`,
         {
           task,
           tone,
