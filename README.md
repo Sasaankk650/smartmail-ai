@@ -60,35 +60,19 @@ The project follows a modern client-server architecture using **React**, **TypeS
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## Home
+| Home | Generate |
+|------|----------|
+| ![](assets/home.png) | ![](assets/generate.png) |
 
-![Home](assets/home.png)
+| Rewrite | Reply |
+|----------|-------|
+| ![](assets/rewrite.png) | ![](assets/reply.png) |
 
----
-
-## Generate Email
-
-![Generate](assets/generate.png)
-
----
-
-## Rewrite Email
-
-![Rewrite](assets/rewrite.png)
-
----
-
-## Reply Email
-
-![Reply](assets/reply.png)
-
----
-
-## Summarize Email
-
-![Summarize](assets/summarize.png)
+| Summarize |
+|------------|
+| ![](assets/summarize.png) |
 
 ---
 
