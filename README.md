@@ -292,7 +292,7 @@ https://github.com/Sasaankk650
 
 LinkedIn
 
-(Add your LinkedIn profile)
+www.linkedin.com/in/sasaank-kottakota-316b87247
 
 ---
 
